@@ -2,7 +2,7 @@
 
 An end-to-end data analysis project using **Python**, **MySQL** and **Tableau** on 398 cars sold between 1970 and 1982.
 
-![Overview dashboard](automobile_project/images/overview_dashboard.png)
+![Overview dashboard](images/overview_dashboard.png)
 
 ---
 
