@@ -73,7 +73,7 @@ The 9 diesel cars average **35.5 MPG** against 23.2 for petrol, and beat their e
 
 **Page 2: Car Explorer.** Filter by region, brand, fuel type and year to see the best cars of each year, how weight relates to MPG, and the cars that beat their expected MPG by the most.
 
-![Car Explorer dashboard](automobile_project/images/car_explorer_dashboard.png)
+![Car Explorer dashboard](images/car_explorer_dashboard.png)
 
 ---
 
@@ -103,9 +103,9 @@ automobile_project/
 
 ## How to reproduce
 
-1. **Python:** open `automobile_project/notebooks/Automobile_analysis.ipynb` in Google Colab, run all cells, and upload `Automobile.csv` when asked. The notebook creates `automobile_clean.csv`.
-2. **MySQL:** in MySQL Workbench, run the first part of `automobile_project/sql/automobile_analysis.sql` to create the database and table. Import `automobile_clean.csv` with the **Table Data Import Wizard**, then run the rest of the script.
-3. **Tableau:** open `automobile_project/tableau/Automobile_Project.twbx` in Tableau Desktop or Tableau Public. The data is packaged inside the file.
+1. **Python:** open `notebooks/Automobile_analysis.ipynb` in Google Colab, run all cells, and upload `Automobile.csv` when asked. The notebook creates `automobile_clean.csv`.
+2. **MySQL:** in MySQL Workbench, run the first part of `sql/automobile_analysis.sql` to create the database and table. Import `automobile_clean.csv` with the **Table Data Import Wizard**, then run the rest of the script.
+3. **Tableau:** open `tableau/Automobile_Project.twbx` in Tableau Desktop or Tableau Public. The data is packaged inside the file.
 
 To run the notebook outside Colab, install the libraries with `pip install -r requirements.txt` and remove the `google.colab` lines.
 
